@@ -1,0 +1,37 @@
+body {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.faculties{
+    display: grid;
+    height: 40vh;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+section a{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    
+    
+    
+
+}
+
+.eng, .fin, .heal, .sci{
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
